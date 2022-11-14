@@ -25,27 +25,12 @@ var __runner__ runner = nil
 
 func TestKoans(t *testing.T) {
 	aboutBasics()
-	aboutStrings()
-	aboutArrays()
-	aboutSlices()
-	aboutTypes()
-	aboutControlFlow()
-	aboutEnumeration()
-	aboutAnonymousFunctions()
-	aboutVariadicFunctions()
-	aboutDefer()
-	aboutFiles()
-	aboutInterfaces()
-	aboutCommonInterfaces()
-	aboutMaps()
-	aboutPointers()
-	aboutStructs()
-	aboutAllocation()
-	aboutChannels()
-	aboutConcurrency()
-	aboutPanics()
+	//aboutStrings()
+	//aboutArrays()
+	//aboutMaps()
+	//aboutInterfaces()
 
-	fmt.Printf("\n%c[32;1mYou won life. Good job.%c[0m\n\n", 27, 27)
+	fmt.Printf("\n%c[32;1mYou passed all tests. Good job.%c[0m\n\n", 27, 27)
 }
 
 func assert(o bool) {
